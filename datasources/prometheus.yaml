@@ -1,0 +1,7 @@
+apiVersion: 1
+datasources:
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://172.17.0.1:9390 #docker0 default value. Modify if in need 
+
